@@ -1,0 +1,86 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-content {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.list-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.list-navbar ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.list-navbar ul li:hover a, .list-navbar ul li:active a, .list-navbar ul li:focus a {
+    color: blueviolet;
+}
+
+/* header content css */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 5px;
+}
+
+.header-content .first-header {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-header .btn-contact {
+    padding: 15px 10px; 
+    width: 40%; 
+    background-color: #2639ED; 
+    color: white; 
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.first-header .btn-contact:hover, .first-header .btn-contact:active, .first-header .btn-contact:focus {
+    background-color: #3140c6;
+}
+
+.header-content .secound-header {
+    position: relative;
+}
+
+/* secount content css */
+.secound-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 5px;
+}
+
+.secound-content .secound-client {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
